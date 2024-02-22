@@ -42,7 +42,7 @@ try:
     while True:
         kbk_user = int(input("""Введите КБК на добавление: """))
 
-        if cl == 'end':
+        if kbk_user == 0:
             break
         else:
             kbk_user_list.append(kbk_user)
